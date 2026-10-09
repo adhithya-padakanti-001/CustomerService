@@ -19,6 +19,7 @@ public class BookingInfoDTO {
 	private String pickupTime;
 	private String dropTime;
 
+//getters and setters	
 	public String getBookingTime() {
 		return bookingTime;
 	}
