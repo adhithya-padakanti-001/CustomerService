@@ -46,6 +46,8 @@ public class ControllerCustomer {
 	public ResponseStructure<String> deletecustomer(@PathVariable Long customerId) {
 		return serviceCustomer.deletecustomer(customerId);
 	}
+	
+	
 
 	@GetMapping("/customer/search/droplocation")
 	public ResponseStructure<ArrayList<SearchDestinationLocationResponseDTO>> searchdroplocation(
